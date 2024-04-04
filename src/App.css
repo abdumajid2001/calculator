@@ -1,38 +1,59 @@
-.App {
-  text-align: center;
+.content {
+    background-color: #282c34;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+    background-image:  url(/train.jpg);
+    object-fit: cover;
+    background-size: cover;
+    background-position: center;
+    min-width: 100%;
+    min-height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.form-floating input, p {
+    font-size: calc(10px + 2vmin);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.form-floating, .form-select {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e9ecef;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1 {
+    text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 2%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.box .form-floating {
+    width: 68%;
 }
+
+.box .form-select {
+    width: 30%;
+}
+
+.lang-box {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: calc(8px + 1vmin);
+}
+
+.lang-box select {
+    height: 50px;
+    width: 70px;
+}
+
