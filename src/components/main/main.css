@@ -1,0 +1,44 @@
+.form-floating input, p {
+    font-size: calc(10px + 2vmin);
+}
+
+.form-floating, .form-select {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #e9ecef;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    gap: 2%;
+}
+
+.box .form-floating {
+    width: 68%;
+}
+
+.box .form-select {
+    width: 30%;
+}
+
+.input-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    gap: 1%;
+    color: #000;
+    font-size: 16px;
+
+}
+

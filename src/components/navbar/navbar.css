@@ -1,0 +1,31 @@
+.lang-box {
+    /*position: absolute;*/
+    font-size: 1.125rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    max-width: 80px;
+}
+
+.nav-bottom-list__link {
+    position: relative;
+    font-size: 1.125rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #1E90FF;
+}
+
+.navbar {
+    background-color: #eee;
+}
+
+h1.logo-text {
+    font-size: 30px;
+    max-width: 340px;
+    text-decoration: none !important;
+    color: #333;
+    line-height: 25px;
+}
+
+.form-select{
+    color: #1E90FF;
+}
